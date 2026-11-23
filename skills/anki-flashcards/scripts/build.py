@@ -1,3 +1,6 @@
+# /// script
+# dependencies = ["genanki==0.13.1"]
+# ///
 import hashlib,json,sys,genanki
 M=genanki.Model(1607392319,"Basic",fields=[{"name":"Front"},{"name":"Back"}],
  templates=[{"name":"Card 1","qfmt":"{{Front}}","afmt":"{{FrontSide}}<hr id=answer>{{Back}}"}],
